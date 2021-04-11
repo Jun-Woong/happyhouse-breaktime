@@ -1,0 +1,78 @@
+#app {
+  font-family: 'Nanum Myeongjo', Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  /* color: #2c3e50; */
+}
+
+b-navbar-brand {
+  font-size: 20pt;
+}
+
+header a,
+footer a {
+  color: #000000ad !important;
+}
+
+a {
+  color: white !important;
+}
+
+li.nav-item,
+li.nav-item a:hover {
+  margin: auto;
+  color: #5cb874 !important;
+}
+
+.badge-primary {
+  color: #fff;
+  background-color: #5cb874 !important;
+}
+
+td a {
+  color: #000000ad !important;
+}
+
+.navbar-brand {
+  padding-left: 20pt;
+}
+
+#upd {
+  margin-left: 20pt;
+  margin-right: 20pt;
+}
+
+#reg {
+  margin-right: 20pt;
+}
+#phone {
+  margin-left: 20pt;
+}
+
+#topbar {
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  width: 100%;
+}
+
+#topbar .social-links a {
+  padding-top: 15px;
+}
+
+.mr-auto,
+.mx-auto {
+  padding-top: 10px;
+}
+
+.weather {
+  width: 4cm;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  padding-top: 2pt;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssafy.vue.dao.GuguncodeDAO">
+
+	<select id="selectGuguncode" resultType="String">
+		select gugun_code
+		from guguncode 
+		where gugun_name like concat('%',#{gugun_name},'%')
+	</select>
+	
+	<select id="selectSafetyDegreeValue" resultType="String">
+    select degree
+    from safety_degree join guguncode
+    where gu like gugun_name and gugun_code=#{gugun_code}
+  </select>
+</mapper>
+
